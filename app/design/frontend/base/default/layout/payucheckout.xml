@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+<!-- Payucgeckout Failure Response Review -->
+<payucheckout_payment_failure>
+    <reference name="root">
+        <action method="setTemplate"><template>page/2columns-right.phtml</template></action>
+    </reference>
+    <reference name="content">
+        <block type="payucheckout/payment_failure" name="payucheckout_payment_failure" template="payucheckout/payment/failure.phtml">
+        </block>
+		
+    </reference>
+	<reference name="content">
+        
+    </reference>
+</payucheckout_payment_failure>
+
+
+<!-- Payucgeckout Cancel Response Review -->
+<payucheckout_payment_canceled>
+    <reference name="root">
+        <action method="setTemplate"><template>page/2columns-right.phtml</template></action>
+    </reference>
+    <reference name="content">
+       <block type="payucheckout/payment_canceled" name="payucheckout_payment_canceled"
+		 template="payucheckout/payment/canceled.phtml">
+        </block>
+		
+    </reference>
+	<reference name="content">
+        
+    </reference>
+</payucheckout_payment_canceled>
+</layout>
+
+
+
+

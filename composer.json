@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/W3care_PayuCheckout",
+    "type": "magento-module",
+    "license": "GNU-Lesser-General-Public-License-(LGPL)",
+    "homepage": "",
+    "description": "The extension will integrate Payupaisa payment gateway",
+    "authors": [
+    {
+        "name": "W3care",
+        "email": "info@w3care.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
